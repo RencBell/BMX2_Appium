@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [BMX2TestSuite]" parallel="tests">
+  <test thread-count="2" name="BMX2 Testcases(failed)" parallel="tests">
+    <classes>
+      <class name="testCases.StartDeviceTest">
+        <methods>
+          <include name="clickOnElement"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.StartDeviceTest -->
+    </classes>
+  </test> <!-- BMX2 Testcases(failed) -->
+</suite> <!-- Failed suite [BMX2TestSuite] -->

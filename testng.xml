@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BMX2TestSuite" thread-count="2" parallel="tests">
+
+    <test name="BMX2 Testcases" enabled="true">
+     <!--   <parameter name="browser" value="Chrome"/>-->
+        <classes>
+            <class name="testCases.StartDeviceTest">
+                <!--  <methods>
+                      <include name="fill_webform_with_invalid_data"/> //Running a single @Test
+                  </methods>-->
+            </class>
+        </classes>
+    </test>
+
+    <!--    <test name="WebformTestWithFirefox" enabled="false">
+            <parameter name="browser" value="Firefox"/>
+            <classes>
+                <class name="">
+                </class>
+            </classes>
+        </test>-->
+
+</suite>
